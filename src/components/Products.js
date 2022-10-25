@@ -40,7 +40,6 @@ const DUMMY_PRODUCTS = [
 ];
 const Products = () => {
   const items = useSelector(state => state.cart.items);
-  console.log(items);
   return (
     <div>
       <ul className="products-container">
